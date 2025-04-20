@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
 
 # CSV読み込み（エラーハンドリングなし）
-df = pd.read_csv('books.csv')
+df = pd.read_csv('.\\resources\\books.csv')
 
 # グローバル変数で状態管理
 selected_books = []
